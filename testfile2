@@ -1,1 +1,56 @@
-print("Hello")
+
+<html>
+<head>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+
+
+        <a-scene
+
+
+           <a-assets> ="" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+
+              <img id="skyTexture" src="ciel.jpg">
+              <img id="groundTexture" src="blacktexture.jpg">
+
+
+            </a-assets>
+
+
+            <a-scene <a-assets="" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+
+
+
+                <a-cylinder id="groundTexture" src="#groundTexture" radius="32" height="0.1" material="ambientOcclusionMap: [object HTMLImageElement]; ambientOcclusionMapIntensity: 0.2; ambientOcclusionTextureOffset: 1 0; color: #affff0; emissive: #0f0f0f; height: 300; metalness: 0.01" geometry="" position=""></a-cylinder>
+
+                <a-sky id="background" src="#skyTexture" theta-length="90" radius="30" material="" geometry="" position=""></a-sky>
+
+
+                <a-entity geometry="width: 0.09" material="color: #95bcff" position="-0.32514 0.5 -1.00334" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5"></a-entity>
+                <a-entity geometry="depth: 2; width: 0.09" material="" color:="" #ff9176"="" position="-0.40575 0.5 0.47066" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5" rotation="0 90 0"></a-entity>
+                <a-entity geometry="width: 0.09" material="ambientOcclusionMap: [object HTMLImageElement]; color: #d194ff" position="1.02922 0.5 -0.53956" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5" rotation="0 90 0"></a-entity>
+                <a-entity geometry="depth: 2; width: 0.09" material="color: #ff78a7" position="0.61166 0.5 1.45807" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5" rotation="0 90 0"></a-entity>
+                <a-entity geometry="depth: 3; width: 0.09" material="ambientOcclusionMap: [object HTMLImageElement]; color: #85ffed" position="0.09109 0.5 -1.48078" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5" rotation="0 90 0"></a-entity>
+                <a-entity geometry="depth: 3; width: 0.09" material="color: #e89d4a; ambientOcclusionMap: [object HTMLImageElement]" position="1.5623 0.5 -0.00847" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5" rotation=""></a-entity>
+                <a-entity geometry="depth: 3; width: 0.09" material="color: #ffec3b" position="-1.3674 0.5 -0.02529" random-color="" snap="offset: 0.25 0.25 0.25; snap: 0.5 0.5 0.5"></a-entity>
+
+
+
+              <a-sky src="#skyTexture" material="" geometry=""><a-sky material="" geometry="">
+
+
+
+            </a-sky></a-sky><div class="a-loader-title" style="display: none;"></div>
+            <a-camera position="0 0.5 0" ></a-camera>
+
+
+          <div class="a-loader-title" style="display: none;"></div></a-scene>
+
+        </a-scene>
+
+  </body>
+
+
+</html>
